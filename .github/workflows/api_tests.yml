@@ -5,7 +5,7 @@ on:
     
 jobs:
   test:
-    timeout-minutes: 11
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.27.1-focal
