@@ -19,7 +19,7 @@ jobs:
         run: npm ci
         
       - name: Run your tests
-        run: npx playwright test create_folder.spec.js
+        run: npx playwright test
         
       - uses: actions/upload-artifact@v2
         if: always()
